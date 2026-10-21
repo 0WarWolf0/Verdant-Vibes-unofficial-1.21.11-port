@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "verdantvibes",
+	"version": "${version}",
+	"name": "Verdant Vibes",
+	"description": "Adds tons of plants like monsteras and ivy to enrich your world and homes!",
+	"authors": [
+		"Pandarix"
+	],
+	"contact": {
+		"homepage": "https://curseforge.com/minecraft/mc-mods/verdantvibes",
+		"sources": "https://github.com/Pandarix/VerdantVibes",
+		"issues": "https://github.com/Pandarix/VerdantVibes/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/verdantvibes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pandarix.verdantvibes.VerdantVibes"
+		],
+		"client": [
+			"net.pandarix.verdantvibes.VerdantVibesClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

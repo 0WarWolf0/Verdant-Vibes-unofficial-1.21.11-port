@@ -1,0 +1,173 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:money_tree",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 16,
+    "xz_spread": 5,
+    "y_spread": 3
+  }
+}

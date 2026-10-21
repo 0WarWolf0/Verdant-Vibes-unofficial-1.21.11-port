@@ -1,0 +1,178 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "verdantvibes:parlour_palm",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:short_grass",
+              "minecraft:fern",
+              "minecraft:air",
+              "minecraft:vine"
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 32,
+    "xz_spread": 5,
+    "y_spread": 3
+  }
+}
